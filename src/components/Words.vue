@@ -1,0 +1,25 @@
+<template>
+  <section>
+    <section>
+      <img src="@/assets/images/words-logo.png" alt="" width="200" />
+      <p>Just Words</p>
+    </section>
+    <section>
+      <div class="words-imgs">
+        <img src="../assets/images/project-01-01.png" alt="" />
+        <img src="../assets/images/project-01-02.png" alt="" />
+        <img src="../assets/images/project-01-03.png" alt="" />
+      </div>
+    </section>
+  </section>
+</template>
+
+<style>
+.words-imgs {
+  display: flex;
+  justify-content: space-between;
+}
+.words-imgs img {
+  width: 25%;
+}
+</style>
