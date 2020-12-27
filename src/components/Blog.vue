@@ -52,7 +52,7 @@
 
   text-align: left;
   font-family: Hack, monospace;
-  font-size: 26px;
+  font-size: 32px;
 }
 
 .top-circle {

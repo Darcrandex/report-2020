@@ -1,7 +1,12 @@
 <template>
   <section>
     <section>
-      <img src="@/assets/images/words-logo.png" alt="" width="200" />
+      <img
+        src="@/assets/images/words-logo.png"
+        alt=""
+        width="200"
+        style="border-radius:50%;"
+      />
       <p>Just Words</p>
     </section>
     <section>
