@@ -69,6 +69,16 @@
         >
       </div>
     </section>
+
+    <section>
+      <img src="@/assets/images/project-edu-01.png" alt="" />
+    </section>
+    <section>
+      <img src="@/assets/images/project-edu-02.png" alt="" />
+    </section>
+    <section>
+      <img src="@/assets/images/project-edu-03.png" alt="" />
+    </section>
   </section>
 </template>
 

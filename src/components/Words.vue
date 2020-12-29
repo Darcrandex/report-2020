@@ -5,15 +5,15 @@
         src="@/assets/images/words-logo.png"
         alt=""
         width="200"
-        style="border-radius:50%;"
+        style="border-radius: 50%"
       />
       <p>Just Words</p>
     </section>
     <section>
       <div class="words-imgs">
-        <img src="../assets/images/project-01-01.png" alt="" />
-        <img src="../assets/images/project-01-02.png" alt="" />
-        <img src="../assets/images/project-01-03.png" alt="" />
+        <img src="@/assets/images/project-01-01.png" alt="" />
+        <img src="@/assets/images/project-01-02.png" alt="" />
+        <img src="@/assets/images/project-01-03.png" alt="" />
       </div>
     </section>
   </section>
