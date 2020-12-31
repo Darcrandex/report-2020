@@ -1,11 +1,9 @@
 <template>
   <section>
-    <section>
-      <h2>Projects Git Statistical</h2>
-    </section>
+    <section>Projects Git <b class="mark">Statistical</b></section>
 
     <section data-auto-animate>
-      <p>Commits</p>
+      <p class="mark">Commits</p>
       <div v-for="item in commitsData" :key="item.labelId">
         <span :data-id="item.labelId" class="row-label">{{ item.label }}</span>
         <div
@@ -20,7 +18,7 @@
     </section>
 
     <section data-auto-animate>
-      <p>Commits</p>
+      <p class="mark">Commits</p>
       <div v-for="item in commitsData" :key="item.labelId">
         <span :data-id="item.labelId" class="row-label">{{ item.label }}</span>
         <div
@@ -38,7 +36,7 @@
     </section>
 
     <section data-auto-animate>
-      <p>Added Lines</p>
+      <p class="mark">Added Lines</p>
       <div v-for="item in addedLinesData" :key="item.labelId">
         <span :data-id="item.labelId" class="row-label">{{ item.label }}</span>
         <div
@@ -53,7 +51,7 @@
     </section>
 
     <section data-auto-animate>
-      <p>Added Lines</p>
+      <p class="mark">Added Lines</p>
       <div v-for="item in addedLinesData" :key="item.labelId">
         <span :data-id="item.labelId" class="row-label">{{ item.label }}</span>
         <div

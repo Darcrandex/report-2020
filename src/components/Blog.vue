@@ -2,7 +2,7 @@
   <section>
     <section>
       <img src="@/assets/images/vue-press-logo.png" alt="" width="200" />
-      <p>Vuepress Blog</p>
+      <p>Vuepress <b class="mark">Blog</b></p>
     </section>
 
     <section>

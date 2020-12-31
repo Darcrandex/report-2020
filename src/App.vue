@@ -1,12 +1,16 @@
 <template>
   <div class="reveal">
     <div class="slides">
-      <section>hello</section>
-      <section>world</section>
+      <section>
+        <p>Year-end Summary For <b class="mark">2020</b></p>
+        <p>by Darcrand🐞</p>
+      </section>
+
+      <Description />
       <GitStatistical />
 
       <section>
-        <h2>My Projects</h2>
+        <p>My <b class="mark">Personal</b> Projects</p>
         <ul>
           <li>Just Words</li>
           <li>Afaire</li>
@@ -19,6 +23,7 @@
       <Afaire />
       <Video />
       <Blog />
+      <Ending />
     </div>
   </div>
 </template>
@@ -27,15 +32,25 @@
 import { nextTick } from "vue";
 import Reveal from "reveal.js";
 
+import Description from "./components/Description.vue";
 import GitStatistical from "./components/GitStatistical.vue";
 import Words from "./components/Words.vue";
 import Afaire from "./components/Afaire.vue";
 import Video from "./components/Video.vue";
 import Blog from "./components/Blog.vue";
+import Ending from "./components/Ending.vue";
 
 export default {
   name: "App",
-  components: { GitStatistical, Words, Afaire, Blog, Video },
+  components: {
+    Description,
+    GitStatistical,
+    Words,
+    Afaire,
+    Blog,
+    Video,
+    Ending,
+  },
   setup() {
     nextTick(() => {
       Reveal.initialize({
@@ -55,5 +70,10 @@ export default {
 
 #app {
   height: 100%;
+}
+
+.mark {
+  font-weight: bold;
+  color: #42b983;
 }
 </style>
