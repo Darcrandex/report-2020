@@ -2,7 +2,7 @@
   <section>
     <section>
       <img
-        src="@/assets/images/afaire-logo-color-128.png"
+        src="@/assets/images/afaire-logo.jpg"
         alt=""
         width="200"
         style="background-color: #ffffff"
