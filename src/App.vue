@@ -3,11 +3,12 @@
     <div class="slides">
       <section>
         <p>Year-end Summary For <b class="mark">2020</b></p>
-        <p>by Darcrand🐞</p>
+        <p class="author">by Darcrand🐞</p>
       </section>
 
       <Description />
       <GitStatistical />
+      <SkillExtension />
 
       <section>
         <p>My <b class="mark">Personal</b> Projects</p>
@@ -34,6 +35,7 @@ import Reveal from "reveal.js";
 
 import Description from "./components/Description.vue";
 import GitStatistical from "./components/GitStatistical.vue";
+import SkillExtension from "./components/SkillExtension.vue";
 import Words from "./components/Words.vue";
 import Afaire from "./components/Afaire.vue";
 import Video from "./components/Video.vue";
@@ -45,6 +47,7 @@ export default {
   components: {
     Description,
     GitStatistical,
+    SkillExtension,
     Words,
     Afaire,
     Blog,
@@ -75,5 +78,9 @@ export default {
 .mark {
   font-weight: bold;
   color: #42b983;
+}
+
+.author {
+  font-size: 18px;
 }
 </style>

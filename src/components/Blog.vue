@@ -30,7 +30,12 @@
           <code class="gray">yarn build</code>
         </div>
         <div class="fragment fade-up">
-          <code class="gray">explorer https://darcrandex.github.io</code>
+          <code class="gray"
+            >explorer
+            <a href="https://darcrandex.github.io"
+              >https://darcrandex.github.io</a
+            ></code
+          >
         </div>
       </div>
     </section>
