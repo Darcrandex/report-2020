@@ -77,6 +77,17 @@
     <section>
       <img src="@/assets/images/project-edu-03.png" alt="" />
     </section>
+    <section>
+      <div class="img_row">
+        <img src="@/assets/images/project-edu-04.png" />
+        <img src="@/assets/images/project-edu-05.png" />
+        <img src="@/assets/images/project-edu-06.png" />
+      </div>
+    </section>
+
+    <section><img src="@/assets/images/project-edu-07.png" alt="" /></section>
+    <section><img src="@/assets/images/project-edu-08.png" alt="" /></section>
+    <section><img src="@/assets/images/project-edu-09.png" alt="" /></section>
   </section>
 </template>
 
@@ -156,5 +167,14 @@ export default {
   text-align: left;
   font-weight: normal;
   font-style: italic;
+}
+
+.img_row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_row img {
+  width: 30%;
 }
 </style>
