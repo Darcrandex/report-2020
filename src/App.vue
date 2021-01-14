@@ -7,7 +7,7 @@
       </section>
 
       <Description />
-      <GitStatistical />
+      <GitStatistical v-if="showCompanyContent" />
       <SkillExtension />
 
       <section>
@@ -61,6 +61,11 @@ export default {
         progress: false,
       });
     });
+
+    const showCompanyContent =
+      process.env.VUE_APP_SHOW_COMPANY_CONTENT === "true";
+    console.log("showCompanyContent", showCompanyContent);
+    return { showCompanyContent };
   },
 };
 </script>
