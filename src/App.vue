@@ -64,7 +64,11 @@ export default {
 
     const showCompanyContent =
       process.env.VUE_APP_SHOW_COMPANY_CONTENT === "true";
-    console.log("showCompanyContent", showCompanyContent);
+    console.log(
+      "showCompanyContent",
+      process.env.VUE_APP_SHOW_COMPANY_CONTENT,
+      showCompanyContent
+    );
     return { showCompanyContent };
   },
 };
@@ -86,6 +90,6 @@ export default {
 }
 
 .author {
-  font-size: 18px;
+  font-size: 30px;
 }
 </style>

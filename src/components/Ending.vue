@@ -30,9 +30,11 @@
 .content {
   margin-left: 50px;
   text-align: right;
+  font-size: 60px;
 }
 
 .author {
   font-style: italic;
+  font-size: 30px;
 }
 </style>

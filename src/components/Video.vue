@@ -11,6 +11,9 @@
     <section>
       <video data-autoplay src="@/assets/media/react-logo.mp4"></video>
     </section>
+    <section>
+      <video data-autoplay src="@/assets/media/word-chop.mp4"></video>
+    </section>
   </section>
 </template>
 
